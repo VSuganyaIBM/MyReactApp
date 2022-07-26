@@ -1,0 +1,220 @@
+.footer-area {
+    .footer-social2 {
+        & a {
+            &:hover {
+                background: $theme-color;
+                color: #7f7f7f;
+                border: 1px solid transparent;
+            }
+        }
+    }
+    .footer-pera {
+        & p {
+            color: #868c98;
+            padding-right: 52px;
+            @media #{$md} {
+                padding-right: 0px;
+            }
+            @media #{$sm} {
+                // padding-right: 0px;
+            }
+            font-size: 16px;
+            margin-bottom: 50px;
+            line-height: 1.8;
+        }
+        &.footer-pera2 p {
+            padding: 0;
+        }
+    }
+    .footer-tittle {
+        & h4 {
+            color: #ffffff;
+            font-size: 20px;
+            margin-bottom: 29px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        & ul {
+            & li {
+                color: #868c98;
+                margin-bottom: 9px;
+                & p {
+                    color: #868c98;
+                    font-weight: 300;
+                    &:hover {
+                        color: $theme-color;
+                        padding-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+    // Footer bottom Tittle
+    .footer-tittle-bottom {
+        span {
+            display: inline-block;
+            color: #fff;
+            font-weight: 600;
+            font-size: 24px;
+            margin-right: 11px;
+            @media #{$xs} {
+                font-size: 20px;
+            }
+        }
+        p {
+            display: inline-block;
+            color: #fff;
+        }
+    }
+
+    .info.error {
+        color: $theme-color;
+    }
+}
+.footer-bg {
+    background: #010b1d;
+}
+.footer-padding {
+    padding-top: 100px;
+    padding-bottom: 20px;
+   
+    @media #{$sm} {
+        padding-top: 80px;
+        padding-bottom: 0px;
+    }
+    @media #{$xs} {
+        padding-top: 80px;
+        padding-bottom: 0px;
+    }
+}
+//copy Right
+.footer-bottom-area {
+    .footer-border {
+        border-top: 1px solid #2d3544;
+        padding: 33px 0px 20px;
+    }
+    .footer-copy-right {
+        & p {
+            color: #888888;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 2;
+            margin-bottom: 12px;
+            @media #{$xs} {
+                margin-bottom: 20px;
+            }
+            @media #{$md} {
+                margin-bottom: 20px;
+            }
+            & i {
+                color: $theme-color;
+            }
+            & a {
+                color: $theme-color;
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .footer-social {
+        @media #{$xs} {
+            float: left;
+        }
+        @media #{$md} {
+            float: left;
+        }
+        & a {
+            & i {
+                color: #888888;
+                margin-left: 13px;
+                font-size: 14px;
+                @include transition(0.4s);
+                &:hover {
+                    color: $theme-color;
+                }
+            }
+        }
+    }
+}
+
+.footer-wejed {
+    padding-top: 120px;
+    padding-bottom: 40px;
+    @media #{$lg} {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    @media #{$md} {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    @media #{$sm} {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    @media #{$xs} {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+}
+.footer-social-media {
+    #services {
+        transform: translatez(0);
+    }
+
+    #services li {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        margin: 20px;
+        list-style: none;
+        @media #{$laptop} {
+            margin: 20px;
+        }
+        @media #{$lg} {
+            margin: 20px;
+
+        }
+        @media #{$md} {
+            margin: 10px;
+
+        }
+        @media #{$sm} {
+            margin: 10px;
+
+        }
+        @media #{$xs} {
+            margin: 5px;
+
+        }
+    }
+    #services li div {
+        width: 50px;
+        height: 50px;
+        font-size: 1em;
+        text-align: center;
+        line-height: 50px;
+        background-color: #28395a;
+        transition: all 0.5s ease;
+    }
+    #services li a {
+        color: #fff;
+    }
+    #services li div:hover {
+        transform: rotate(360deg);
+        border-radius: 100px;
+    }
+    #services li span {
+        width: 50px;
+        height: 20px;
+        display: block;
+        padding: 15px 0px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 10px;
+        text-align: center;
+    }
+  
+}

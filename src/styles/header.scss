@@ -1,0 +1,21 @@
+.header-area {
+    .bg-light{
+        background: $white;
+    }
+    .logo img {
+        width: 60px;
+    }
+    a {
+        font-family: $font_3;
+        font-size: 18px;
+        color: #252b60;
+        font-weight: 500;
+        padding: 5px 20px;
+    }
+    a:hover{
+        color:$theme-color;
+    }
+    .navbar-toggler{
+        margin-left: 15em;
+    }
+}
